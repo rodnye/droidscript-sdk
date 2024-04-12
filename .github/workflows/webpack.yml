@@ -24,5 +24,6 @@ jobs:
 
     - name: Build
       run: |
+        rm .npmrc
         npm install
         npm run build

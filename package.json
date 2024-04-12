@@ -1,10 +1,9 @@
 {
   "name": "droidscript-sdk",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Alternative method to use Droidscript SDK.",
   "main": "lib/index.js",
   "scripts": {
-    "ci": "npm run build && echo 'Test successful'",
     "build": "npx webpack",
     "publish": "npm run build && npm publish"
   },
