@@ -1,0 +1,29 @@
+{
+  "name": "droidscript-sdk",
+  "version": "1.0.0",
+  "description": "Alternative method to use Droidscript SDK.",
+  "main": "lib/index.js",
+  "scripts": {
+    "ci": "npm run build && echo 'Test successful'",
+    "build": "npx webpack",
+    "publish": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RodnyE/droidscript-sdk.git"
+  },
+  "keywords": [
+    "droidscript",
+    "android",
+    "apk"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RodnyE/droidscript-sdk/issues"
+  },
+  "homepage": "https://github.com/RodnyE/droidscript-sdk#readme",
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
